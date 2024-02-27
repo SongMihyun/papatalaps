@@ -43,7 +43,7 @@ function bannerSlide(i,j,k){
     //컨트롤 버튼 클릭이벤트
     const prevBtn=i.find('.prev');
     const nextBtn=i.find('.next');
-    const slideDot=i.find('slideDot');
+    const slideDot=i.find('.slideDot');
     
     nextBtn.click(function(){
         next();        
@@ -94,4 +94,9 @@ lmLeft_List_li.click(function(){
     $(this).addClass('ck');
 });
 
-
+//section05 클릭이벤트
+const ytb_bottom_li=$('.ytb_bottom>ul>li');
+ytb_bottom_li.click(function(){
+    ytb_bottom_li.removeClass('ck');
+    $(this).addClass('ck');
+});
