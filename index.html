@@ -29,11 +29,16 @@
 <!-- 제이쿼리 3.7 CDN -->
 <script src='https://code.jquery.com/jquery-3.7.0.min.js' crossorigin='anonymous'></script>
 
+<!-- Swiper  CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <!-- 로컬 CSS -->
 <link rel='stylesheet' href='./css/style.css'/>
-
 <!-- 로컬 js -->
 <script src='./js/script.js' defer></script>
+
 
 </head>
 <body>
@@ -93,7 +98,7 @@
                 </ul>
             </div>
         </nav>
-        
+        <!-- 
         <section id="section1" class="section1">
             <div class="intro">
                 <div class="intro_slide_wrap bannerWrap">
@@ -121,6 +126,24 @@
                 </div>
             </div>
         </section>
+         -->
+        <section id="section1" class="section1">
+            <div class="intro_slide_wrap">
+                <!-- Swiper -->
+                <div class="swiper sec1_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><div class="img1 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img2 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img3 imgBox"></div></a></div>
+                    </div>
+                    <div class="btn_next swiper-button-next"></div>
+                    <div class="btn_prev swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+
         <section id="section2" class="section2">
             <div class="papataTemplate">
                 <div class="ptWrap">
@@ -480,29 +503,17 @@
             </div>
         </section>
         <section id="section4" class="section4">
-            <div class="sec4_event">
-                <div class="sec4_event_slide_wrap bannerWrap">
-                    <div class="sec4_event_slide_banner banner">
-                        <div class="sec4_event_slide_container banner_container">
-                            <ul class="sec4_event_slide_Ul banner_Ul">
-                                <li class="sec4_event_banner_1" role="1"><a href="#"><p></p></a></li>
-                                <li class="sec4_event_banner_2" role="2"><a href="#"><p></p></a></li>
-                                <li class="sec4_event_banner_3" role="3"><a href="#"><p></p></a></li>
-                            </ul>
-                        </div>
+            <div class="sec4_event_slide_wrap">
+                <!-- Swiper -->
+                <div class="swiper sec4_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><div class="img1 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img2 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img3 imgBox"></div></a></div>
                     </div>
-                    <div class="slide_control">
-                        <div class="sec4_event_slide_btn slideBtn">
-                                <button class="prev"></button>
-                                <button class="next"></button>
-                        </div>
-                      
-                    </div>
-                      <div class="sec4_event_slide_dot slideDot">
-                            <button class="dot_1 on"></button>
-                            <button class="dot_2"></button>
-                            <button class="dot_3"></button>
-                        </div>
+                    <div class="btn_next swiper-button-next"></div>
+                    <div class="btn_prev swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -522,7 +533,6 @@
                             </div>
                         </div>
                         <div class="ytb_infoArea">
-    
                         </div>
     
                     </div>
@@ -653,37 +663,32 @@
             </div>
         </section>
         <section id="section8" class="section8">
-            <div class="patnersBanner">
-                <div class="patnersBanner_slide_wrap bannerWrap">
-                    <div class="patnersBanner_slide_banner banner">
-                        <div class="patnersBanner_slide_container banner_container">
-                            <ul class="patnersBanner_slide_Ul banner_Ul">
-                                <li class="patnersBanner_banner_1" role="1"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_2" role="2"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_3" role="3"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_4" role="4"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_5" role="5"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_6" role="6"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_7" role="7"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_8" role="8"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_9" role="9"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_10" role="10"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_11" role="11"><a href="#"><p></p></a></li>
-                                <li class="patnersBanner_banner_13" role="13"><a href="#"><p></p></a></li>
-                            </ul>
-                        </div>
+            <div class="sec8_patners_slide_wrap">
+                <!-- Swiper -->
+                <div class="swiper sec8_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><div class="img1 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img2 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img3 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img4 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img5 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img6 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img7 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img8 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img9 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img10 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img11 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img12 imgBox"></div></a></div>
+                        <div class="swiper-slide"><a href="#"><div class="img13 imgBox"></div></a></div>
                     </div>
-                    <div class="slide_control">
-                        <div class="patnersBanner_slide_btn slideBtn">
-                                <button class="prev"></button>
-                                <button class="next"></button>
-                        </div>
-                    </div>
+                    <div class="btn_next swiper-button-next"></div>
+                    <div class="btn_prev swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
     
-        <div id="sec5_title" class="topBtn">
+        <div id="topBtn" class="topBtn">
             <a href="#"><div class="icon"></div></a>
         </div>
     </div>
